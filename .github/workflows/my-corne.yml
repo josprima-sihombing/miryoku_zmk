@@ -10,7 +10,7 @@ jobs:
     with:
       board: '["nice_nano"]'
       shield: '["corne_left","corne_right","settings_reset"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_ZMK_SLEEP=y","CONFIG_BT_CTLR_TX_PWR_PLUS_8=y","CONFIG_ZMK_POINTING=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_POINTING=y"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
