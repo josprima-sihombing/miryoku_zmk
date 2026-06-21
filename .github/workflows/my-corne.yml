@@ -11,7 +11,7 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right","settings_reset"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_ZMK_POINTING=y"]'
       branches: '["zmkfirmware/zmk/v0.3-branch"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
